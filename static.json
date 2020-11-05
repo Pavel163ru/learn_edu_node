@@ -1,0 +1,8 @@
+{
+  "headers": {
+    "/*": {
+      "X-Author": "pavel2018",
+      "Access-Control-Allow-Origin": "*"
+    }
+  }
+}
