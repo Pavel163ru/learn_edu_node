@@ -4,7 +4,7 @@
       "X-Author": "pavel2018",
       "Access-Control-Allow-Origin": "*"
     },
-    "/login/: {
+    "/login/": {
       "Access-Control-Allow-Origin": "*",
       "Content-Type": "text/plain; charset=UTF-8"
     },
