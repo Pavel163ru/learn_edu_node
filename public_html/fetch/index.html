@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+  <input id="inp" type="text"> 
+  <button id="bt" type="button">Click</button>
+  <script>
+    document.addEventListener("DOMContentLoaded", function (){
+      document.getElementById('bt').addEventListener('click', async function(){
+        fetch(document.getElementById('inp').value)
+        .then(response => response.text())
+        .then(text => {
+          console.log(text);
+          document.getElementById('inp').value = text;
+        });
+      });
+    });
+  </script>
+</body>
+</html>
